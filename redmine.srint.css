@@ -1,0 +1,20 @@
+#sidebar {
+    display: none;
+  }
+  #content {
+    width: 100%
+  }
+  table.sprint-board {
+    width: inherit;
+    border: 1px solid gray;
+  }
+  table.sprint-board thead tr th, table.sprint-board tr.sprint-board td.sprint-board {
+    border: 1px solid gray;
+  }
+  table.sprint-task, table.sprint-board tr.sprint-board td.sprint-board {
+       margin: 1px;
+    padding: 1px;
+  }
+  table.sprint-board tbody table.post-it a.icon-add:not([title~=Task]) {
+    display: none;
+  }
